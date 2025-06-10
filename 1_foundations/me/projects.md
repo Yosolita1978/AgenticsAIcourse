@@ -1,6 +1,6 @@
 👋 Hi, I'm Cristina!
 
-I'm passionate about empowering others through technology, education, and mentorship.
+I'm a Green Card Holder. I'm passionate about empowering others through technology, education, and mentorship.
 
 ## Professional Summary
 - **3+ years** of experience in **tech mentorship, software engineering, facilitating technical workshops**, and **simplifying complex technical concepts** for beginners.
