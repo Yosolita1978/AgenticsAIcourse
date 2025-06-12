@@ -59,4 +59,33 @@ Sharing bite-sized lessons, full-length coding workshops, and technical tutorial
 
 ---
 
+ 
+## 📜 Certifications
+
+- **AI Agents Fundamentals**  
+  *Hugging Face – Issued May 2025*  
+  A hands-on course covering the foundations of agentic workflows using the Hugging Face ecosystem. Topics included ML, LLMs, tool usage, memory handling, multi-agent collaboration, and building real-world AI agents with the Gradio SDK and Transformers.
+  [View Credential](https://huggingface.co/)  
+ 
+
+- **Introduction to Generative AI**  
+  *Google – Issued September 2023*  
+  An introductory course that explores the fundamentals of generative AI, including how models like large language models (LLMs) are trained and used. Covered key concepts such as diffusion models, transformers, and ethical considerations.
+  [View Credential](https://www.cloudskillsboost.google/)  
+  
+
+- **Android Basics Nanodegree Program**  
+  *Udacity – Issued January 2018*  
+  A beginner-friendly program focused on building Android apps using Java and XML. Covered key concepts such as user interface design, data persistence, and working with APIs. Provided a strong foundation in mobile development and app architecture.
+  [View Credential](https://www.udacity.com/)  
+  Skills: React Native, Java
+
+- **Grow with Google Challenge Scholarship**  
+  *Udacity – Issued January 2018 
+  Program sponsored by Google to expand access to technical training and career opportunities in technology. Focused on foundational programming skills and included access to mentorship and project-based learning.
+  
+
+---
+
+
 Feel free to explore my repositories for additional samples of my work. Let's connect!
