@@ -31,7 +31,7 @@ dependencies = [
     { name = "mcp", extra = ["cli"] },
     { name = "mcp-server-fetch" },
     { name = "openai" },
-    { name = "openai-agents" },
+    { name = "openai-agents", extra = ["viz"] },
     { name = "playwright" },
     { name = "plotly" },
     { name = "polygon-api-client" },
@@ -75,7 +75,7 @@ requires-dist = [
     { name = "mcp", extras = ["cli"], specifier = ">=1.5.0" },
     { name = "mcp-server-fetch", specifier = ">=2025.1.17" },
     { name = "openai", specifier = ">=1.68.2" },
-    { name = "openai-agents", specifier = ">=0.0.6" },
+    { name = "openai-agents", extras = ["viz"], specifier = ">=0.0.6" },
     { name = "playwright", specifier = ">=1.51.0" },
     { name = "plotly", specifier = ">=6.0.1" },
     { name = "polygon-api-client", specifier = ">=1.14.5" },
@@ -953,6 +953,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ec/5c/d323dc321eae7b48efa14f1b1be8e05508ed19e15b4f1decee4b8e3b58de/gradio_client-1.10.0.tar.gz", hash = "sha256:463bd60f0b11580185de13a01a1621fbff179fe29359dfa8810c1b3f9df5e342", size = 320953, upload-time = "2025-04-29T22:47:43.872Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c2/ce/4b9377d6780a0eb96ce9bc8f3c884dedcf53ac862b17604916bd5e90aad4/gradio_client-1.10.0-py3-none-any.whl", hash = "sha256:47bfc878a3715604f6f0a554dc63f9ed78d14b126274f7d137e25447c737cd63", size = 322919, upload-time = "2025-04-29T22:47:42.06Z" },
+]
+
+[[package]]
+name = "graphviz"
+version = "0.21"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f8/b3/3ac91e9be6b761a4b30d66ff165e54439dcd48b83f4e20d644867215f6ca/graphviz-0.21.tar.gz", hash = "sha256:20743e7183be82aaaa8ad6c93f8893c923bd6658a04c32ee115edb3c8a835f78", size = 200434, upload-time = "2025-06-15T09:35:05.824Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/91/4c/e0ce1ef95d4000ebc1c11801f9b944fa5910ecc15b5e351865763d8657f8/graphviz-0.21-py3-none-any.whl", hash = "sha256:54f33de9f4f911d7e84e4191749cac8cc5653f815b06738c54db9a15ab8b1e42", size = 47300, upload-time = "2025-06-15T09:35:04.433Z" },
 ]
 
 [[package]]
@@ -2014,6 +2023,11 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c4/b1/586b7413132e9ead6a671f468a1f3465cf3d12e1e73172aa51fcc936142c/openai_agents-0.0.14.tar.gz", hash = "sha256:884d6a1d4be7e77c2442b3ed058abe2c56231a6a05942fe87c6d8ecee72ca491", size = 1339042, upload-time = "2025-04-30T15:19:47.139Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/28/50/83bf8515219ffa319a011aa74fc61f4d9036c6a4f49ed9c87d6a4f4484a1/openai_agents-0.0.14-py3-none-any.whl", hash = "sha256:43f88ae01787aaf699a5354997970cfeef12495286da55807ce0e4c1b2ebbb2c", size = 116871, upload-time = "2025-04-30T15:19:45.38Z" },
+]
+
+[package.optional-dependencies]
+viz = [
+    { name = "graphviz" },
 ]
 
 [[package]]
